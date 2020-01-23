@@ -1,6 +1,4 @@
-                                                                          ############### DZ ################      
-
-
+############### DZ ################
 
 
 # ==================================================== #
@@ -19,118 +17,93 @@
 #  print("errror")
 
 
-
-
 # ==================================================== #
-                ###КОНВЕНТР###
+###КОНВЕНТР###
 
 
-#dlina = int(input(' 1. Кілометри -> Милі\n 2. Метри -> Ярди\n 3. Метри -> Фути\n 4. Сантиметри -> Дюйми\
-        #\n 5. Миліметри -> Дюйми \n 6. Милі <- Кілометри \n 7. Ярди <- Метри \n 8. Фути <- Метри\
-       # \n 9. Дюйми <- Сантиметри\n 10. Дюйми <- Міліметри\n '))
-#if dlina == 1:
-    #value_dlina = float(input('Скільки кілометрів? :\n'))
-   # print(value_dlina, 'кілометрів становить',
-          #round((value_dlina * 1.60934), 2), 'миль')
-#elif dlina == 2:
-    #value_dlina = float(input('Скільки метрів? :\n'))
-   # print(value_dlina, 'метров становить', round(
-        #(value_dlina * 1.09361), 2), 'ярдів')
-#elif dlina == 3:
-    #value_dlina = float(input('Скільки метрів? :\n'))
-   # print(value_dlina, 'метров становить', round(
-       # (value_dlina / 0.3048), 2), 'футів')
-#elif dlina == 4:
-   # value_dlina = float(input('Скільки сантиметрів? :\n'))
-    #print(value_dlina, 'сантиметрів становить', round(
-       # (value_dlina * 2.5400013716), 2), 'дюймів')
-#elif dlina == 5:
-   # value_dlina = float(input('Скільки міліметрів? :\n'))
-   # print(value_dlina, 'міліметрів становить', round(
-        #(value_dlina / 0.0393701), 2), 'дюймів')
-#elif dlina == 6:
-       # value_dlina = float(input('Скільки миль? :\n'))
-        #print(value_dlina, 'миль =', round(
-           # (value_dlina / 0.621371), 2), 'кілометрів')
-#elif dlina == 7:
-       ##print(value_dlina, 'ярдів =', round(
-            #(value_dlina / 0.9144), 2), 'метрів')
-#elif dlina == 8:
-        #value_dlina = float(input('Скількі футів? :\n'))
-        #print(value_dlina, 'футів =', round(
-           # (value_dlina / 3.28084), 2), 'метрів')
-#elif dlina == 9:
-       # value_dlina = float(input('Скількі дюймів? :\n'))
-        #print(value_dlina, 'дюймів =', round((value_dlina / 0.393701), 2), 'сантиметрів')
-#elif dlina == 10:
-      #  value_dlina = float(input('Скільки міліметрів? :\n'))
-        #print(value_dlina,'міліметрів становить', round((value_dlina / 0.0393701), 2) ,'дюймів')
+# dlina = int(input(' 1. Кілометри -> Милі\n 2. Метри -> Ярди\n 3. Метри -> Фути\n 4. Сантиметри -> Дюйми\
+# \n 5. Миліметри -> Дюйми \n 6. Милі <- Кілометри \n 7. Ярди <- Метри \n 8. Фути <- Метри\
+# \n 9. Дюйми <- Сантиметри\n 10. Дюйми <- Міліметри\n '))
+# if dlina == 1:
+#value_dlina = float(input('Скільки кілометрів? :\n'))
+# print(value_dlina, 'кілометрів становить',
+# round((value_dlina * 1.60934), 2), 'миль')
+# elif dlina == 2:
+#value_dlina = float(input('Скільки метрів? :\n'))
+# print(value_dlina, 'метров становить', round(
+# (value_dlina * 1.09361), 2), 'ярдів')
+# elif dlina == 3:
+#value_dlina = float(input('Скільки метрів? :\n'))
+# print(value_dlina, 'метров становить', round(
+# (value_dlina / 0.3048), 2), 'футів')
+# elif dlina == 4:
+# value_dlina = float(input('Скільки сантиметрів? :\n'))
+# print(value_dlina, 'сантиметрів становить', round(
+# (value_dlina * 2.5400013716), 2), 'дюймів')
+# elif dlina == 5:
+# value_dlina = float(input('Скільки міліметрів? :\n'))
+# print(value_dlina, 'міліметрів становить', round(
+# (value_dlina / 0.0393701), 2), 'дюймів')
+# elif dlina == 6:
+# value_dlina = float(input('Скільки миль? :\n'))
+# print(value_dlina, 'миль =', round(
+# (value_dlina / 0.621371), 2), 'кілометрів')
+# elif dlina == 7:
+# print(value_dlina, 'ярдів =', round(
+# (value_dlina / 0.9144), 2), 'метрів')
+# elif dlina == 8:
+#value_dlina = float(input('Скількі футів? :\n'))
+# print(value_dlina, 'футів =', round(
+# (value_dlina / 3.28084), 2), 'метрів')
+# elif dlina == 9:
+# value_dlina = float(input('Скількі дюймів? :\n'))
+#print(value_dlina, 'дюймів =', round((value_dlina / 0.393701), 2), 'сантиметрів')
+# elif dlina == 10:
+#  value_dlina = float(input('Скільки міліметрів? :\n'))
+#print(value_dlina,'міліметрів становить', round((value_dlina / 0.0393701), 2) ,'дюймів')
 
-
-                                                                    ############### END DZ ################   
-                                                                    # 
-                                                                    # 
-                                                                     ############### if else loops  ################      
+############### END DZ ################
+#
+#
+############### if else loops  ################
 
 #a = int(("Enter first digit: "))
 #b = int(("Enter second digit: "))
-#if a > b:
-    #print("a > b")
-#elif a < b:
-   # print("a < b")
-#else:
-    #print("a = b")  
-      
+# if a > b:
+#print("a > b")
+# elif a < b:
+# print("a < b")
+# else:
+#print("a = b")
 
-#def sey_Hey():
-    #name = input("enter your name: ")
-   # print("Hello,", name)
 
-#sey_Hey()
+# def sey_Hey():
+#name = input("enter your name: ")
+# print("Hello,", name)
 
-#def plus(a, b):
-    #return a + b
+# sey_Hey()
 
-#sum = plus(3, 4) 
-#print(sum)   
-#def palus(*par)
+# def plus(a, b):
+# return a + b
+
+#sum = plus(3, 4)
+# print(sum)
+# def palus(*par)
 
 
 #показуе коли температура була більша за 10 ща 7 днів##
 #day = 0
 #counter = 0
-#while True:
-    #if day == 7:
-     #   break
-    #temp = int(input("Enter temper  ")) 
-   # day += 1
-  #  if temp > 10:
- #       counter += 1
+# while True:
+# if day == 7:
+#   break
+#temp = int(input("Enter temper  "))
+# day += 1
+#  if temp > 10:
+#       counter += 1
 #print("Temp more 10", counter, "time.")
 
 ##########
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #a = 10
@@ -176,15 +149,14 @@
 # else :
 #  print("errror")
 
-
-                                                                            ############### DZ ################      
+############### DZ ################
 #####табличка множення на введене число###
 
 #a = int(input("tupe numb: "))
-#for i in range(a, 10):
-    #for j in range(1, 10):
-        #print ('{} x {} = {}'.format(i, j, i*j), end=' ')
-    #print()
+# for i in range(a, 10):
+# for j in range(1, 10):
+#print ('{} x {} = {}'.format(i, j, i*j), end=' ')
+# print()
 
 ##########
 
@@ -192,40 +164,40 @@
 
 #trying = 1
 
-#while True:
-    
-    #rand = randint(1, 6)
-    #print(rand)
-    #if rand != 6:
-        #trying += 1
-    #else:
-        #break
+# while True:
+
+#rand = randint(1, 6)
+# print(rand)
+# if rand != 6:
+#trying += 1
+# else:
+# break
 #print("Try number ", trying)
 #input("Your turn ===>", trying)
 
 
 #import random
 
-#def rollDie():
-    #return random.choice([1,2,3,4,5,6])
+# def rollDie():
+# return random.choice([1,2,3,4,5,6])
 
-#def winFraction(): # Perform one trial of 10000 games and return fraction of wins for A
-    #winsA = 0 # only count wins for A
-    #for numTrow in range(6):
-        #isPlayerA = True # Player A always takes the first turn
-        #throw = rollDie()
-       # while throw != 6: # While the game is not over yet:
-           # isPlayerA = not isPlayerA # Switch to the other player
-           # throw = rollDie()
-        #if isPlayerA:
-            #winsA += 1 # Only count the wins for player A
-    #return winsA # This is the fraction: we know the number of played games
+# def winFraction(): # Perform one trial of 10000 games and return fraction of wins for A
+# winsA = 0 # only count wins for A
+# for numTrow in range(6):
+# isPlayerA = True # Player A always takes the first turn
+#throw = rollDie()
+# while throw != 6: # While the game is not over yet:
+# isPlayerA = not isPlayerA # Switch to the other player
+# throw = rollDie()
+# if isPlayerA:
+# winsA += 1 # Only count the wins for player A
+# return winsA # This is the fraction: we know the number of played games
 
-#def sim():
-    #for trial in range(2): # Perform 10 trials
-       # print(winFraction()) # Print the result of the trial
+# def sim():
+# for trial in range(2): # Perform 10 trials
+# print(winFraction()) # Print the result of the trial
 
-#sim() # Start the simulation
+# sim() # Start the simulation
 
 # from random import randint
 # print("\nАзартні ігри шкідливі для вашого здоровя")
@@ -255,11 +227,67 @@
 #     elif result < result_skynet:
 #         pc_dice += 1
 #     if dice_player == 6 or pc_dice == 6:
-#         break           
+#         break
 #     print ("Ваш результат: ", dice_player,"\nРезультат SKYNET: ", pc_dice)
 # if pc_dice < dice_player:
 #     print("Виграв User з кількістю балів: ", dice_player )
 # else:
-#     print("Виграв SKYNET ", pc_dice,"балів")         
+#     print("Виграв SKYNET ", pc_dice,"балів")
+
+#arf = [1, 42, 16, 18]
+#print(arf)
+#arf.append(28)  # добавити в масив
+#print(arf)
+ #ставимо в масив 1) цифра на яке місце ставимо 2) число яке вставояємо
+#arf.insert(2, 100500)
+#print(arf)
+#arf.remove(100500)
+#print(arf)  # видаляє перше (100500)
+#arf.clear()  # чистить повныстю масив
+#print(arf)
+#arf.append(599)  # добавити в масив
+#print(arf)
+#arf.append(185)  # добавити в масив
+#print(arf)
+#arf.append(25)  # добавити в масив
+#print(arf)
+#arf.append(385)  # добавити в масив
+#print(arf)
+
+#print(arf.index(25)) # вертає номер індекса
 
 
+#arf.pop(1) # видаляэ номер індекса з масива
+#print(arf)
+#arf.count(8)
+#print(arf)
+#print(arf)
+#arf.append("microsoft")
+#print(arf)
+#arf.sort()
+#print(arf)
+#arf.reverse()
+#print(arf)
+
+#print(len(arf))
+#print(min(arf))
+#print(max(arf))
+
+#for ihem in (arf):
+   # print(arf) 
+import copy   
+name = ["Bill", "Dian", "Tomm", "Stop", "Dice", "Form"]
+name.sort()
+for ithem in (name):
+    print(name)   
+
+name1 = ["Tom", "Vim", "Bill", "Vork"]
+#name2 = name1
+name2 = copy.deepcopy(name1)
+print("name1", name1)
+print("name2", name2)
+name2.append("Brend")
+print("name1", name1)
+print("name2", name2)
+name3 = name1[3:5]
+print(name3)
