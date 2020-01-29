@@ -235,59 +235,89 @@
 #     print("Виграв SKYNET ", pc_dice,"балів")
 
 #arf = [1, 42, 16, 18]
-#print(arf)
-#arf.append(28)  # добавити в масив
-#print(arf)
- #ставимо в масив 1) цифра на яке місце ставимо 2) число яке вставояємо
+# print(arf)
+# arf.append(28)  # добавити в масив
+# print(arf)
+# ставимо в масив 1) цифра на яке місце ставимо 2) число яке вставояємо
 #arf.insert(2, 100500)
-#print(arf)
-#arf.remove(100500)
-#print(arf)  # видаляє перше (100500)
-#arf.clear()  # чистить повныстю масив
-#print(arf)
-#arf.append(599)  # добавити в масив
-#print(arf)
-#arf.append(185)  # добавити в масив
-#print(arf)
-#arf.append(25)  # добавити в масив
-#print(arf)
-#arf.append(385)  # добавити в масив
-#print(arf)
+# print(arf)
+# arf.remove(100500)
+# print(arf)  # видаляє перше (100500)
+# arf.clear()  # чистить повныстю масив
+# print(arf)
+# arf.append(599)  # добавити в масив
+# print(arf)
+# arf.append(185)  # добавити в масив
+# print(arf)
+# arf.append(25)  # добавити в масив
+# print(arf)
+# arf.append(385)  # добавити в масив
+# print(arf)
 
-#print(arf.index(25)) # вертає номер індекса
+# print(arf.index(25)) # вертає номер індекса
 
 
-#arf.pop(1) # видаляэ номер індекса з масива
-#print(arf)
-#arf.count(8)
-#print(arf)
-#print(arf)
-#arf.append("microsoft")
-#print(arf)
-#arf.sort()
-#print(arf)
-#arf.reverse()
-#print(arf)
+# arf.pop(1) # видаляэ номер індекса з масива
+# print(arf)
+# arf.count(8)
+# print(arf)
+# print(arf)
+# arf.append("microsoft")
+# print(arf)
+# arf.sort()
+# print(arf)
+# arf.reverse()
+# print(arf)
 
-#print(len(arf))
-#print(min(arf))
-#print(max(arf))
+# print(len(arf))
+# print(min(arf))
+# print(max(arf))
 
-#for ihem in (arf):
-   # print(arf) 
-import copy   
-name = ["Bill", "Dian", "Tomm", "Stop", "Dice", "Form"]
-name.sort()
-for ithem in (name):
-    print(name)   
+# for ihem in (arf):
+#    print(arf)
+# import copy
+# name = ["Bill", "Dian", "Tomm", "Stop", "Dice", "Form"]
+# name.sort()
+# for ithem in (name):
+#     print(name)
 
-name1 = ["Tom", "Vim", "Bill", "Vork"]
-#name2 = name1
-name2 = copy.deepcopy(name1)
-print("name1", name1)
-print("name2", name2)
-name2.append("Brend")
-print("name1", name1)
-print("name2", name2)
-name3 = name1[3:5]
-print(name3)
+# name1 = ["Tom", "Vim", "Bill", "Vork"]
+# #name2 = name1
+# name2 = copy.deepcopy(name1)
+# print("name1", name1)
+# print("name2", name2)
+# name2.append("Brend")
+# print("name1", name1)
+# print("name2", name2)
+# name3 = name1[3:5]
+# print(name3)
+
+
+
+###############
+#Дано одновимірний масив. Знайти найбільший та найменший елементи масиву та поміняти їх у масиві місцями. 
+##################
+# mass = [1, 2, 5, 56, 7, 87, 98, 0, 34, 123, 545, 6, 7, 8888]
+# print(mass)
+# min_value = min(mass)
+# max_value = max(mass)
+# min_index = mass.index(min_value)
+# max_index = mass.index(max_value)
+# temp=mass[min_index]
+# mass[min_index] = mass[max_index]
+# mass[max_index] = temp
+# print("New Arr", mass)
+
+
+################################
+#Дано одновимірний масив. Знайти суму елементів з непарними індексами. 
+##################################
+# N = [1, 2, 5, 56, 7, 87, 98, 0, 34, 123, 545, 6, 7, 8888]
+# s = sum(N[1: :2])
+# print(s)
+
+# N = [1, 2, 5, 56, 7, 87, 98, 0, 34, 123, 545, 6, 7, 8888]
+# N2 = [1, 2, 5, 56, 7, 87, 98, 0, 34, 123, 545, 6, 7, 55]
+# s = sum()
+
+# http://www.cyberforum.ru/python-beginners/thread1737276.html
