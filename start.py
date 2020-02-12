@@ -4,7 +4,7 @@
 # ==================================================== #
 # пора дня від введеного часу
 
-#a = int(input("Введіть час: "))
+# a = int(input("Введіть час: "))
 # if a <= 6:
 #  print("Ніч")
 # elif a <= 12:
@@ -25,15 +25,15 @@
 # \n 5. Миліметри -> Дюйми \n 6. Милі <- Кілометри \n 7. Ярди <- Метри \n 8. Фути <- Метри\
 # \n 9. Дюйми <- Сантиметри\n 10. Дюйми <- Міліметри\n '))
 # if dlina == 1:
-#value_dlina = float(input('Скільки кілометрів? :\n'))
+# value_dlina = float(input('Скільки кілометрів? :\n'))
 # print(value_dlina, 'кілометрів становить',
 # round((value_dlina * 1.60934), 2), 'миль')
 # elif dlina == 2:
-#value_dlina = float(input('Скільки метрів? :\n'))
+# value_dlina = float(input('Скільки метрів? :\n'))
 # print(value_dlina, 'метров становить', round(
 # (value_dlina * 1.09361), 2), 'ярдів')
 # elif dlina == 3:
-#value_dlina = float(input('Скільки метрів? :\n'))
+# value_dlina = float(input('Скільки метрів? :\n'))
 # print(value_dlina, 'метров становить', round(
 # (value_dlina / 0.3048), 2), 'футів')
 # elif dlina == 4:
@@ -52,33 +52,33 @@
 # print(value_dlina, 'ярдів =', round(
 # (value_dlina / 0.9144), 2), 'метрів')
 # elif dlina == 8:
-#value_dlina = float(input('Скількі футів? :\n'))
+# value_dlina = float(input('Скількі футів? :\n'))
 # print(value_dlina, 'футів =', round(
 # (value_dlina / 3.28084), 2), 'метрів')
 # elif dlina == 9:
 # value_dlina = float(input('Скількі дюймів? :\n'))
-#print(value_dlina, 'дюймів =', round((value_dlina / 0.393701), 2), 'сантиметрів')
+# print(value_dlina, 'дюймів =', round((value_dlina / 0.393701), 2), 'сантиметрів')
 # elif dlina == 10:
 #  value_dlina = float(input('Скільки міліметрів? :\n'))
-#print(value_dlina,'міліметрів становить', round((value_dlina / 0.0393701), 2) ,'дюймів')
+# print(value_dlina,'міліметрів становить', round((value_dlina / 0.0393701), 2) ,'дюймів')
 
 ############### END DZ ################
 #
 #
 ############### if else loops  ################
 
-#a = int(("Enter first digit: "))
-#b = int(("Enter second digit: "))
+# a = int(("Enter first digit: "))
+# b = int(("Enter second digit: "))
 # if a > b:
-#print("a > b")
+# print("a > b")
 # elif a < b:
 # print("a < b")
 # else:
-#print("a = b")
+# print("a = b")
 
 
 # def sey_Hey():
-#name = input("enter your name: ")
+# name = input("enter your name: ")
 # print("Hello,", name)
 
 # sey_Hey()
@@ -86,28 +86,28 @@
 # def plus(a, b):
 # return a + b
 
-#sum = plus(3, 4)
+# sum = plus(3, 4)
 # print(sum)
 # def palus(*par)
 
 
 #показуе коли температура була більша за 10 ща 7 днів##
-#day = 0
-#counter = 0
+# day = 0
+# counter = 0
 # while True:
 # if day == 7:
 #   break
-#temp = int(input("Enter temper  "))
+# temp = int(input("Enter temper  "))
 # day += 1
 #  if temp > 10:
 #       counter += 1
-#print("Temp more 10", counter, "time.")
+# print("Temp more 10", counter, "time.")
 
 ##########
 
 
-#a = 10
-#b = 10
+# a = 10
+# b = 10
 # if a > b:
 #   print("a > b")
 # elif a < b:
@@ -115,14 +115,14 @@
 # else:
 #   print("a = b")
 
-#name =int (input("WWWWW00"))
-#print("hi", name)
-#print("type", type(name))
+# name =int (input("WWWWW00"))
+# print("hi", name)
+# print("type", type(name))
 
 
-#a = int(input("type: "))
-#b = int(input("type2: "))
-#func = input("func: + - * /")
+# a = int(input("type: "))
+# b = int(input("type2: "))
+# func = input("func: + - * /")
 # if func == "+":
 #   print(a + b)
 # elif func == "/":
@@ -152,31 +152,31 @@
 ############### DZ ################
 #####табличка множення на введене число###
 
-#a = int(input("tupe numb: "))
+# a = int(input("tupe numb: "))
 # for i in range(a, 10):
 # for j in range(1, 10):
-#print ('{} x {} = {}'.format(i, j, i*j), end=' ')
+# print ('{} x {} = {}'.format(i, j, i*j), end=' ')
 # print()
 
 ##########
 
-#from random import randint
+# from random import randint
 
-#trying = 1
+# trying = 1
 
 # while True:
 
-#rand = randint(1, 6)
+# rand = randint(1, 6)
 # print(rand)
 # if rand != 6:
-#trying += 1
+# trying += 1
 # else:
 # break
-#print("Try number ", trying)
-#input("Your turn ===>", trying)
+# print("Try number ", trying)
+# input("Your turn ===>", trying)
 
 
-#import random
+# import random
 
 # def rollDie():
 # return random.choice([1,2,3,4,5,6])
@@ -185,7 +185,7 @@
 # winsA = 0 # only count wins for A
 # for numTrow in range(6):
 # isPlayerA = True # Player A always takes the first turn
-#throw = rollDie()
+# throw = rollDie()
 # while throw != 6: # While the game is not over yet:
 # isPlayerA = not isPlayerA # Switch to the other player
 # throw = rollDie()
@@ -234,12 +234,12 @@
 # else:
 #     print("Виграв SKYNET ", pc_dice,"балів")
 
-#arf = [1, 42, 16, 18]
+# arf = [1, 42, 16, 18]
 # print(arf)
 # arf.append(28)  # добавити в масив
 # print(arf)
 # ставимо в масив 1) цифра на яке місце ставимо 2) число яке вставояємо
-#arf.insert(2, 100500)
+# arf.insert(2, 100500)
 # print(arf)
 # arf.remove(100500)
 # print(arf)  # видаляє перше (100500)
@@ -322,8 +322,8 @@
 # http://www.cyberforum.ru/python-beginners/thread1737276.html
 
 ##########################################
-#Дано список. Знайти найбільший та найменший елементи 
-#масиву та поміняти їх у масиві місцями.
+# Дано список. Знайти найбільший та найменший елементи
+# масиву та поміняти їх у масиві місцями.
 # from random import random
 # N = 15
 # arr = [0]*N
@@ -339,11 +339,11 @@
 # arr[imn], arr[imx] = arr[imx],arr[imn]
 # for i in range(15):
 #     print(arr[i],end='')
-# print()  
-# 
-############################################# 
-# Дано список. Поміняти місцями перший елемент з другим, третій з четвертим, 
-# і т.д. Вивести змінений масив на екран     
+# print()
+#
+#############################################
+# Дано список. Поміняти місцями перший елемент з другим, третій з четвертим,
+# і т.д. Вивести змінений масив на екран
 # arr = list(map(int,input('Введіть деяку кількість чисел через пробіл: ').split()))
 # print(arr)
 # k = 1
@@ -352,8 +352,8 @@
 #     arr[k], arr[i] = arr[i], arr[k]
 #     print("стало - ", arr)
 #     k = -1
-   
-    ################ #розділяє список на дві частини від заданого інтервалу                                
+
+# розділяє список на дві частини від заданого інтервалу
 # A = [0, 1, 2, 3, 4, 5]
 # B = A[:3]
 # C = A[3:]
@@ -369,14 +369,131 @@
 #         ps1.append(x)
 #     else:
 #         ps2.append(x)
-# print("Список K: ", spisok)        
+# print("Список K: ", spisok)
 # print("Список B --> ", ps1)
 # print("Список C -->",ps2)
 
 
+# class Person:
+#     name = "Bill"
+#     def showe_person(self):
+#         print("Hello", self.name)
+# Bill = Person()
+# Bill.showe_person()
+# Tom = Person()
+# # Tom.showe_person()
+# Tom.name = "Tom"
+# Tom.showe_person()
 
 
+# class Person:
+#     def __init__(self, name):
+#         self.__name = name
+#         print("Person constructor", self.__name)
+
+#     def __del__(self):
+#         print("PersonDestructot", self.__name)
+
+#     def __showe_person(self):
+#         print(self.__name)
 
 
+# Jack = Person("Jack")
+# Jack.showe_person()
+# Bobic = Person("Bobic")
+# Bobic.showe_person()
+
+# class Person:
+#     def __init__(self, name):
+#         self.__name = name
+
+#     def set_name(self, new_name):
+#         if self.__name == new_name:
+#             print("theseve name")
+#         else:
+#             self.__name == new_name
 
 
+# Bill = Person("Bill")
+# print(Bill.set_name())
+# from random import randint
+
+# class Account:
+#     def __init__(self, card_number, amount, currancy):
+#         self.__card_number = card_number
+#         self.__amount = amount
+#         self.__currancy = currancy
+#         self.__new_amount = 0
+
+#         print("FFFFFFF")
+#     def show_info(self):
+#         print("Card namb: ", self.__card_number, "\nAmount: ", self.__amount, "\nCurrancy: ", self.__currancy)
+#     def increment_amount(self, amount):
+#         self.__new_amount += int(input("Text: "))
+
+
+# amount = int(input("Enter money: "))
+# currancy = input("Enter carrncy: UAN USD EUR \n--->")
+# card_number = randint(10000, 99999)
+
+# credit_card = Account(card_number, amount, currancy)
+# credit_card.show_info()
+
+# credit_card.increment_amount(0)
+# credit_card.show_info()
+ #----------------------------------------------------------------------------------------------------------------------------------------------
+class Person:
+    def __init__(self, name:str, surname:str, age: int):
+        self.__name:str = name
+        self.__surname:str = surname
+        self.__age:int = age
+
+    def show_person(self):
+        print("Name: ", self.__name, "\nsurname: ", self.__surname, "\nAge: ", self.__age)
+
+    @property
+    def name(self):
+        return  self.__name 
+    @name.setter
+    def name(self, new_name:str):
+        self.__name = new_name
+
+    @property
+    def surname(self):
+        return self.__surname
+    @surname.setter
+    def surname(self, new_surname:str):
+        self.__surname = new_surname    
+
+    @property
+    def age(self):
+        return self.__age
+    @age.setter
+    def age(self, new_age:int):
+        self.__age = new_age    
+
+class Junior (Person):
+    def __init__(self, name:str, surname:str, age:int, skills:str, position:str):
+        Person.__init__(self, name, surname, age)
+        self.__skills = skills
+        self.__position = position
+    def show_person(self):
+        print("Name: ", self.name, "\nsurname: ", self.surname, "\nAge: ", self.age, "\nskills :", self.__skills, "\nposition :", self.__position) 
+
+jun = Junior("Patrik", "Tresher", 36 , "Top_Junior", "Full Gobe")
+jun.show_person()
+print("-----------------------------------")
+jun.name = "Tripe"
+jun.surname = "Prymus"
+jun.age =24
+jun.show_person()
+# gvido = Person("Gvido", "Van", 46)
+# gvido.show_person()
+# print("____--------______")
+# print("prop before -->", gvido.name)
+# gvido.name = "Tupak"
+# gvido.surname = "DuVan"
+# gvido.age = 55
+# gvido.show_person()
+# print("prop after -->", gvido.name)                    
+        

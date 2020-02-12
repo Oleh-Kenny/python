@@ -21,7 +21,8 @@ def phone_add(phone):
         phone.append({"id": len(phone)+1, "name": new_phone_name,
                       "model": new_phone_model, "price": new_phone_cost})
     except:
-        print(Fore.YELLOW + Back.BLUE + "\nError Ціна введена була не вірно, потрібно ввести цифри")
+        print(Fore.YELLOW + Back.BLUE +
+              "\nError Ціна введена була не вірно, потрібно ввести цифри")
         print(Style.RESET_ALL)
 
 
@@ -42,7 +43,7 @@ def phone_sort(phone):
         phones_sort = "name"
 
     sort_ph = sorted(phone, key=lambda phone: phone[phones_sort])
-    
+
     input("Натисни Enter для перегляду результата")
     return sort_ph
 
