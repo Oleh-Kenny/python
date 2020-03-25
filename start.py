@@ -442,51 +442,51 @@
 # credit_card.increment_amount(0)
 # credit_card.show_info()
  #----------------------------------------------------------------------------------------------------------------------------------------------
-class Person:
-    def __init__(self, name:str, surname:str, age: int):
-        self.__name:str = name
-        self.__surname:str = surname
-        self.__age:int = age
+# class Person:
+#     def __init__(self, name:str, surname:str, age: int):
+#         self.__name:str = name
+#         self.__surname:str = surname
+#         self.__age:int = age
 
-    def show_person(self):
-        print("Name: ", self.__name, "\nsurname: ", self.__surname, "\nAge: ", self.__age)
+#     def show_person(self):
+#         print("Name: ", self.__name, "\nsurname: ", self.__surname, "\nAge: ", self.__age)
 
-    @property
-    def name(self):
-        return  self.__name 
-    @name.setter
-    def name(self, new_name:str):
-        self.__name = new_name
+#     @property
+#     def name(self):
+#         return  self.__name 
+#     @name.setter
+#     def name(self, new_name:str):
+#         self.__name = new_name
 
-    @property
-    def surname(self):
-        return self.__surname
-    @surname.setter
-    def surname(self, new_surname:str):
-        self.__surname = new_surname    
+#     @property
+#     def surname(self):
+#         return self.__surname
+#     @surname.setter
+#     def surname(self, new_surname:str):
+#         self.__surname = new_surname    
 
-    @property
-    def age(self):
-        return self.__age
-    @age.setter
-    def age(self, new_age:int):
-        self.__age = new_age    
+#     @property
+#     def age(self):
+#         return self.__age
+#     @age.setter
+#     def age(self, new_age:int):
+#         self.__age = new_age    
 
-class Junior (Person):
-    def __init__(self, name:str, surname:str, age:int, skills:str, position:str):
-        Person.__init__(self, name, surname, age)
-        self.__skills = skills
-        self.__position = position
-    def show_person(self):
-        print("Name: ", self.name, "\nsurname: ", self.surname, "\nAge: ", self.age, "\nskills :", self.__skills, "\nposition :", self.__position) 
+# class Junior (Person):
+#     def __init__(self, name:str, surname:str, age:int, skills:str, position:str):
+#         Person.__init__(self, name, surname, age)
+#         self.__skills = skills
+#         self.__position = position
+#     def show_person(self):
+#         print("Name: ", self.name, "\nsurname: ", self.surname, "\nAge: ", self.age, "\nskills :", self.__skills, "\nposition :", self.__position) 
 
-jun = Junior("Patrik", "Tresher", 36 , "Top_Junior", "Full Gobe")
-jun.show_person()
-print("-----------------------------------")
-jun.name = "Tripe"
-jun.surname = "Prymus"
-jun.age =24
-jun.show_person()
+# jun = Junior("Patrik", "Tresher", 36 , "Top_Junior", "Full Gobe")
+# jun.show_person()
+# print("-----------------------------------")
+# jun.name = "Tripe"
+# jun.surname = "Prymus"
+# jun.age =24
+# jun.show_person()
 # gvido = Person("Gvido", "Van", 46)
 # gvido.show_person()
 # print("____--------______")
@@ -496,4 +496,6 @@ jun.show_person()
 # gvido.age = 55
 # gvido.show_person()
 # print("prop after -->", gvido.name)                    
+        
+
         
